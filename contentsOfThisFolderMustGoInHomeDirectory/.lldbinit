@@ -1,0 +1,18 @@
+#
+# Chris D'Angelo
+# 7/11/13
+#
+# This document comes from: http://llvm.org/svn/llvm-project/lldb/trunk/examples/customization/pwd-cd-and-system/
+# 
+# This must be saved in the home directory (i.e. '~')
+#
+
+script import os, sys
+# So that ~/Documents/lldb-python-scripts/utils.py takes precedence.
+script sys.path[:0] = [os.path.expanduser('~/Documents/lldb-python-scripts')]
+script import utils
+script import DjangoErrorHelper
+command alias pwd script print os.getcwd()
+command script add -f utils.chdir cd
+command script add -f utils.system system
+command script add -f DjangoErrorHelper.deliverDjangoError dde
