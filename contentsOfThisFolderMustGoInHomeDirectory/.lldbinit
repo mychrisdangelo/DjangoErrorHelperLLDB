@@ -2,7 +2,7 @@
 # Chris D'Angelo
 # 7/11/13
 #
-# This document comes from: http://llvm.org/svn/llvm-project/lldb/trunk/examples/customization/pwd-cd-and-system/
+# This document was adapted from: http://llvm.org/svn/llvm-project/lldb/trunk/examples/customization/pwd-cd-and-system/
 # 
 # This must be saved in the home directory (i.e. '~')
 #

@@ -14,7 +14,7 @@
 # 	http://lldb.llvm.org
 # 
 
-# expectation is that os and sys has been imported via .lldbinit
+# expectation is that .lldbinit is in place (see README)
 import lldb, os
 import webbrowser
 
