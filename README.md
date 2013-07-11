@@ -17,7 +17,7 @@ Enjoy!
 
 1. Save all the files to your `~/Documents` directory.
 2. Move the .lldbinit file to your `~` directory. Start Xcode.
-3. From Xcode create a breakpoint where you receive a Django response to a variable named `data`. Add a breakpoint action to this breakpoint: debugger command `dde`. I recommend added a breakpoint and breakpoing action from Xcode but you can also add this breakpoint and breakpoint action from the command line. Below is an example of adding the breakpoint in our project.
+3. Add a breakpoint where you receive a Django response to a variable named `data`. Add a breakpoint action to this breakpoint: debugger command `dde`. I recommend adding this breakpoint with breakpoint action from the Xcode UI but you can also add this breakpoint with breakpoint action from the command line. Below is an example of adding the breakpoint in our project via command line.
 
 ```
 (lldb) breakpoint set --file BoomsetDoormanOrientationViewController.m --line 581
