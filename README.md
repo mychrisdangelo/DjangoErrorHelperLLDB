@@ -7,7 +7,7 @@ The intended purpose is to setup a break point with a break point action from wi
 
 This new LLDB command then searches for the variable named `data`. If such a variable is found and if it contains an html tag then the function will save the html file to the desktop and open the document with a browser.
 
-For more information on using the lldb debugger I highly recommend watching [WWDC session videos on lldb](https://developer.apple.com/wwdc/videos/) and also checking out the [lldb documentation](http://lldb.llvm.org)
+For more information on using the lldb debugger I highly recommend watching [WWDC session videos on LLDB](https://developer.apple.com/wwdc/videos/) and also checking out the [LLDB documentation](http://lldb.llvm.org)
 
 Enjoy!
 
