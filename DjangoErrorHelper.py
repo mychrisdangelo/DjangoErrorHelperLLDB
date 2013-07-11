@@ -43,6 +43,9 @@ def deliverDjangoError(debugger,user_input,result,unused):
 		localUrl = 'file://' + absolutePath
 		webbrowser.open_new_tab(localUrl)
 
-		# print >>result, "depth: " + str(name)
+		# This is how we might return a result back to the debugger
+		# but it is not necessary for our goals
+		#  
+		# print >>result, "message back to debugger"
 	else:
 		print 'We did not receive a response from the server that included the string <!DOCTYPE html> so I do not think we received a Django Error.'

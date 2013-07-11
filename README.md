@@ -1,5 +1,5 @@
-DjangoErrorHelperLLDB
-=====================
+Django Error Helper LLDB Command
+================================
 
 This handful of python scripts is intended to be used as a new LLDB command.
 
