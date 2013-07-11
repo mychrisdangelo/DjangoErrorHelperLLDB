@@ -15,7 +15,7 @@ Enjoy!
 
 ### To install: ###
 
-1. Save all the files to your `~/Documents` directory.
+1. Save all the files to your `~/Documents/lldb-python-scripts` directory.
 2. Move the .lldbinit file to your `~` directory. Start Xcode.
 3. Add a breakpoint where you receive a Django response to a variable named `data`. Add a breakpoint action to this breakpoint: debugger command `dde`. I recommend adding this breakpoint with breakpoint action from the Xcode UI but you can also add this breakpoint with breakpoint action from the command line. Below is an example of adding the breakpoint in our project via command line.
 
