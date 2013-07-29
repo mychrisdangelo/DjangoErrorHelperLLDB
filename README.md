@@ -3,7 +3,7 @@ Django Error Helper LLDB Command
 
 This handful of python scripts is intended to be used as a new LLDB command for conveniently delivering a received Django error in a browser.
 
-The intended purpose is to setup a break point with a break point action from within a project (like an iOS app). The breakpoint should be placed at a point when Django returns to your project a response string. This response string could be saved into a variable named `responseString`. The breakpoint action should be setup to call the debugger command `dde` ("Deliver Django Error) with the response string as an argument (i.e. `dde responseString`). Installation details below.
+The intended purpose is to setup a break point with a break point action from within a project (like an iOS app). The breakpoint should be placed at a point when Django returns to your project a response string. This response string could be saved into a variable named `responseString`. The breakpoint action should be setup to call the debugger command `dde` ("Deliver Django Error") with the response string as an argument (i.e. `dde responseString`). Installation details below.
 
 This new LLDB command uses a variable passed in such as `dde responseString`. If such a variable is found and if it contains an html tag then the function will save the html file to the desktop and open the document with a browser.
 
