@@ -27,7 +27,7 @@ def deliverDjangoError(debugger,user_input,result,unused):
 	# thread = debugger.GetSelectedTarget().GetProcess().GetSelectedThread()
 	# name = thread.GetFrameAtIndex(0).function.name
  
-	djangoErrorHtml = lldb.frame.FindVariable("data").GetObjectDescription()
+	djangoErrorHtml = lldb.frame.FindVariable(user_input).GetObjectDescription()
 
 	if djangoErrorHtml.find('<!DOCTYPE html>') > 0:
 		# write the error to file
